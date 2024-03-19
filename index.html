@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Hotel</title>
+</head>
+<body>
+    <h1>Reserva de Hotel</h1>
+    <form action="#" method="POST">
+
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br>
+
+        <p></p><label for="sexo">Sexo:</label><br>
+        <input type="radio" id="masculino" name="sexo" value="masculino" required>
+        <label for="masculino">Masculino</label><br>
+        <input type="radio" id="feminino" name="sexo" value="feminino" required>
+        <label for="feminino">Feminino</label><br>
+        <input type="radio" id="outro" name="sexo" value="outro" required>
+        <label for="outro">Outro</label><br>
+
+        <p><label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email" required>
+
+        <p></p><label for="data_chegada">Data de Chegada:</label><br>
+        <input type="date" id="data_chegada" name="data_chegada" required><br>
+
+        <p></p><label for="num_noites">Número de Noites:</label><br>
+        <input type="number" id="num_noites" name="num_noites" required><br>
+
+        <p></p><label for="num_hospedes">Número de Hóspedes:</label><br>
+        <input type="number" id="num_hospedes" name="num_hospedes" required><br>
+
+        <p></p><label for="total_estimado">Total Estimado:</label><br>
+        <input type="text" id="total_estimado" name="total_estimado" required><br>
+
+        <p></p><label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br>
+
+        <p></p><input type="checkbox" id="newsletter" name="newsletter" value="receber">
+        <label for="newsletter">Desejo receber informações por email.</label><br>
+
+        <p><input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
